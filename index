@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roxas Thao | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #0073b1;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background: #575757;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #0073b1;
+      padding-bottom: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Roxas Thao</h1>
+  <p>Professional Portfolio</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Write a short summary about yourself based on your LinkedIn profile.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Job Title</strong> - Company Name (Year - Year)<br>
+      Brief description of your role and achievements.</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Degree</strong> - School Name (Year)</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Skill 1</li>
+      <li>Skill 2</li>
+      <li>Skill 3</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/roxas-thao-48a655380" target="_blank">View Profile</a></p>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 Roxas Thao</p>
+</footer>
+
+</body>
+</html>
